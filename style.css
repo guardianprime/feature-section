@@ -41,7 +41,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 25px;
   padding: 20px;
   width: 100%;
   max-height: 125vh;
@@ -61,7 +61,7 @@ section .child {
   border-radius: 10px;
   padding: 10px;
   flex-grow: 1;
-  box-shadow: 0px 0px 14px 14px rgba(150, 150, 150, 0.5);
+  box-shadow: 0px 0px 14px 14px rgba(142, 164, 190, 0.404);
 }
 
 .child div {
@@ -98,7 +98,7 @@ footer {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -144,5 +144,10 @@ footer {
 @media (min-width: 1100px) {
   section {
     width: 60%;
+  }
+
+  .header {
+    width: 40%;
+    margin: 0px auto;
   }
 }
